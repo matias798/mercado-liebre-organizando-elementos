@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Crea tu usuario</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo-mercado-liebre.svg" width="200px" height="200px" alt="">
+    
+        <ul>
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">Tiendas oficiales</a></li>
+            <li><a href="">Vender</a></li>
+            <li><a href="">Ayuda</a></li>
+        </ul>
+        <ul>
+            <li><a href="/CreateUser.html" >Crea tu cuenta</a></li>
+            <li><a href="">Ingresa</a></li>
+            <li><a href="">Mis compras</a></li>
+        </ul>
+    </header>
+
+    <form>
+
+    <input type="text" id="name" placeholder="Nombre y apellido" value=""> <br>
+    
+    <input type="text" id="userName" placeholder="Nombre de usuario" value=""> <br>
+    
+    <input type="email" id="email" placeholder="E-mail" value=""><br>
+    
+    <label for="date"> <h4>Fecha de nacimiento </h4> </label><br>
+    <input type="date" id="date" value=""><br>
+  
+    <input type="text" id="address" placeholder="Domicilio" value=""><br>
+
+    <br></br>
+
+    <h3>Perfil del usuario</h3>
+    <input type="radio" id="buyer" name="userType" value="buyer">
+    <label for id='buyer'> Comprador</label>
+
+    <input type="radio" id="seller" name="userType" value="seller">
+    <label for id='seller'> Comprador</label>
+    
+    <br>
+
+    <h3>Perfil del usuario</h3>
+
+    <input type="checkbox" id="Electro" name="interests" value="Electro">
+    <label for id='electro'> Electro</label>
+
+
+    <input type="checkbox" id="fad" name="interests" value="fad" >
+    <label for id='fad'> Moda</label>
+
+    <input type="checkbox" id="home" name="interests" value="home">
+    <label for id='home'> Hogar</label>
+
+    <input type="checkbox" id="toyStore" name="interests" value="toyStore">
+    <label for id='toyStore'> Jugueteria</label>
+
+    <input type="checkbox" id="healthyLife" name="interests" value="healthyLife">
+    <label for id='healthylife'> Vida sana </label>
+<br>
+<h3>Elegi tu foto de usuario</h3>
+
+<input type="file"><br></br>
+
+<input type="password" id="password" placeholder="Elegi tu contraseña" value=""><br>
+<input type="password" id="password" placeholder="Confirma tu contraseña" value=""><br></br>
+
+
+<input type="submit" value="">
+<input type="reset">
+
+</form> 
+</body>
+</html>
