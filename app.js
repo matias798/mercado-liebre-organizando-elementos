@@ -14,6 +14,17 @@ app.get('/CreateUser.html',(req,res)=>{
 
 });
 
+app.get('/login.html',(req,res)=>{
+
+    res.sendFile(__dirname +'/views' + req.url);   
+
+});
+
+app.get('/validar',(req,res)=>{
+
+    res.sendFile(__dirname + '/views/index.html');   
+
+});
 
 app.get('*', (req, res) => {
 
