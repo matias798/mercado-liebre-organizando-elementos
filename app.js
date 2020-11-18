@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 
 });
    
-app.get('/CreateUser.html',(req,res)=>{
+app.get('/register.html',(req,res)=>{
 
     res.sendFile(__dirname +'/views' + req.url);   
 
